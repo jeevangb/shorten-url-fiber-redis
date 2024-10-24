@@ -4,9 +4,10 @@ import (
 	"fmt"
 	"log"
 	"os"
+
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
-	"github.com/jeevangb/shorten-url-fiber-redis/api/routes"
+	"github.com/jeevangb/shorten-url-fiber-redis/routes"
 	"github.com/joho/godotenv"
 )
 

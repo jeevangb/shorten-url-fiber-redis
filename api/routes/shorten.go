@@ -9,8 +9,8 @@ import (
 	"github.com/go-redis/redis/v8"
 	"github.com/gofiber/fiber/v2"
 	"github.com/google/uuid"
-	"github.com/jeevangb/shorten-url-fiber-redis/api/database"
-	"github.com/jeevangb/shorten-url-fiber-redis/api/helpers"
+	"github.com/jeevangb/shorten-url-fiber-redis/database"
+	"github.com/jeevangb/shorten-url-fiber-redis/helpers"
 )
 
 type request struct {
